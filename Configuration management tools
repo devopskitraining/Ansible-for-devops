@@ -1,0 +1,18 @@
+Configuration Management (Puppet, Ansible, Chef, Salt)
+Configuration of Infrastructure - manage multiple servers
+
+Puppet              Ansible
+Pull                Push
+Master/Slave        Agentless (Password authentication, inventory file)
+                    Dynamic Inventory
+Puppet language     Yaml lang to write playbooks
+                    You can write your own Ansible modules by using python and can be shared
+ 
+
+** Protocol for ansible to connect to windows is WIN RM
+     Protocol Ansible uses to connect to Linux is SSH
+
+** Disadvantages of Ansible
+config management with windows is not as good as with Linux
+Debugging
+Performance
